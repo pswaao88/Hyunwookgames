@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동아리 로고 피하기 게임</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="game-container">
+  <h1>동아리 로고 피하기</h1>
+  <p>점수: <span id="score">0</span></p>
+  <canvas id="gameCanvas" width="400" height="600"></canvas>
+  <div id="gameOverScreen" class="hidden">
+    <h2>게임 오버!</h2>
+    <p>최종 점수: <span id="finalScore">0</span></p>
+    <button id="restartButton">다시 시작</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

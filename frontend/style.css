@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding-top: 50px;
+}
+
+#game-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: inline-block;
+  position: relative;
+}
+
+#gameCanvas {
+  background-color: #eee;
+  border: 1px solid #333;
+}
+
+#gameOverScreen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#restartButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
